@@ -63,26 +63,3 @@
     a total of ${card.amount * card.unitprice} bucks?`
 
 //
-
-/*
- * Enhanced Object Properties
-*/
-
-    // Shorter syntax for common object props
-    let obj = { x, y } // same as { x: x, y: y }
-
-    // Variable/computed property names using [] when creating objects
-    let baz = 'qux'
-    let obj = {
-        foo: "bar",
-        [baz]: 42,
-        ['baz' + baz]: 38
-    }
-
-    // Method notation in objects for regular and generator functions
-    let obj = {
-        foo (a, b) { /* ... */ },
-        *bar (a, b) { /* ... */ }
-    }
-
-//
